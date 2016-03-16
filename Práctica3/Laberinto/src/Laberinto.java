@@ -11,9 +11,9 @@ import java.util.Collections;
 public class Laberinto extends PApplet{
 
 	/*Atributos para la interfaz*/
-	 int altoTablero=35;
-	 int anchoTablero=50;
-	 boolean pintarCuadricula,pintarLaberinto;
+	int altoTablero=35;   //Se puede modificar el alto
+	int anchoTablero=60;  //y ancho del tablero.
+	boolean pintarCuadricula,pintarLaberinto;
 
 	/*Atributos del modelo*/
 	private Celda[][]tablero; //Tablero
